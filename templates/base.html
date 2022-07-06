@@ -47,55 +47,58 @@
     </nav>
     <!-- Page Header-->
     <header class="masthead"
-        style="background-image: url( '{{ url_for('static', filename='assets/img/home-bg.jpg') }}' )">
-        <div class="container position-relative px-4 px-lg-5">
+        style="background-image: url( https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fadc668e-5f6a-4648-9d27-e91eb6973da7/d5nay7b-9991c1db-0f4a-4f3f-a95a-0b53947a14f9.png/v1/fill/w_1571,h_509,strp/the_hobbit__thorin_and_company_by_art_calavera_d5nay7b-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAyIiwicGF0aCI6IlwvZlwvZmFkYzY2OGUtNWY2YS00NjQ4LTlkMjctZTkxZWI2OTczZGE3XC9kNW5heTdiLTk5OTFjMWRiLTBmNGEtNGYzZi1hOTVhLTBiNTM5NDdhMTRmOS5wbmciLCJ3aWR0aCI6Ijw9MTg1OCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.d-hTWHzoXk231oa0ulaQm6EYcMM-FcPbgwuH0ulBBCI )">
+    </header>
+    
+    <!-- main content -->
+    <div class="container position-relative px-4 px-lg-5">
 
-            {% block content %}
+        {% block content %}
 
-            {% endblock %}
+        {% endblock %}
 
-        </div>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
-                    </div>
+    </div>
+    <!-- Footer-->
+    <footer class="border-top">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script
-            src="{{ url_for('static', filename='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js') }}"></script>
-        <!-- Core theme JS-->
-        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script
+        src="{{ url_for('static', filename='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js') }}"></script>
+    <!-- Core theme JS-->
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </body>
 
 </html>
