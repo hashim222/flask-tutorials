@@ -4,6 +4,8 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE)
 */
 window.addEventListener('DOMContentLoaded', () => {
+    const copyright = document.querySelector('#copyright')
+    copyright.innerText = new Date().getFullYear()
     let scrollPos = 0;
     const mainNav = document.getElementById('mainNav');
     const headerHeight = mainNav.clientHeight;
